@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sjekk Tilsyn</string>
+    <string name="logoTxt">Logo</string>
+    <string name="landingString">Mattilsynet</string>
+    <string name="finnSted">Finn Spisested</string>
+    <string name="geoTxt">I Nærheten</string>
+    <string name="instTxt">Innstillinger</string>
+    <string name="navnTxt">Navn</string>
+    <string name="postStedTxt">Post Sted</string>
+    <string name="sokTxt">Søk</string>
+    <string name="navnHjelp">Navnet til spisestedet</string>
+    <string name="favSokTxt">Favorittsøk</string>
+    <string name="orgTxt">Org Nummer</string>
+    <string name="addTxt">Addresse</string>
+    <string name="postNrTxt">Post Nummer</string>
+    <string name="totKarakterTxt">Total Karakter</string>
+    <string name="datoTxt">Dato</string>
+    <string name="kravPunktTxt">Kravpunkt</string>
+    <string name="tekstTxt">Vurdert eller ikke</string>
+    <string name="karTxt">Karakter</string>
+    <string name="sortering">Sortering</string>
+    <string name="favStedTxt">Favoritt Sted</string>
+    <string name="favArstallTxt">Favoritt År</string>
+    <string name="setFavKnapp">Sett Favoritt</string>
+</resources>

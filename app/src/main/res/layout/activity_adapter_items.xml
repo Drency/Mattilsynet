@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/navnTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/navnTxt"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/navn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/postStedTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/postStedTxt"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/postSted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/orgTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orgTxt"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/orgNr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="25dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/addText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addTxt"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/addresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="60dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/postnrTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/postNrTxt"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/postNr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="99dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/totKarakterTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/totKarakterTxt"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="130dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/karakterBilde"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/smil_foreground" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Instillinger"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/favStedTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favStedTxt"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        />
+
+    <EditText
+        android:id="@+id/favSted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapSentences"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/favArstallTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favArstallTxt"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        />
+
+    <EditText
+        android:id="@+id/favArstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="4" />
+
+    <Button
+        android:id="@+id/setFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setFavKnapp"
+        android:onClick="setFavoritt"/>
+
+</LinearLayout>
